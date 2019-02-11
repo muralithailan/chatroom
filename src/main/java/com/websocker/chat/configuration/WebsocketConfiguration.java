@@ -8,7 +8,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 
 /**
  * This class if to configure websocket
- * @author z022839
+ * @author Murali
  *
  */
 @Configuration
