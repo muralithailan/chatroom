@@ -11,6 +11,11 @@ import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 import com.websocker.chat.constant.MessageType;
 import com.websocker.chat.dto.ChatMessage;
 
+/**
+ * This listener class to configure message queues
+ * @author z022839
+ *
+ */
 @Configuration
 public class WebSocketEventListener {
 	
@@ -19,7 +24,7 @@ public class WebSocketEventListener {
 
 	@EventListener
 	public void handleWebSocketConnectListener(SessionConnectedEvent event) {
-		// Event on connect
+		
 	}
 	
 	@EventListener
